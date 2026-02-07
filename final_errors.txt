@@ -1,0 +1,24 @@
+src/App.backup.tsx(25,10): error TS6133: 'inGame' is declared but its value is never read.
+src/App.tsx(3,10): error TS6133: 'updateVision' is declared but its value is never read.
+src/App.tsx(6,15): error TS6196: 'UnitType' is declared but never used.
+src/App.tsx(165,62): error TS2322: Type '(nation: NationId, difficulty: Difficulty, mapId: MapId) => void' is not assignable to type '(difficulty: Difficulty, p1Nation: NationId, p2Nation: NationId, mapId: MapId) => void'.
+  Types of parameters 'nation' and 'difficulty' are incompatible.
+    Type 'Difficulty' is not assignable to type 'NationId'.
+      Type '"EASY"' is not assignable to type 'NationId'.
+src/components/ArcadeLogin.tsx(1,27): error TS6133: 'useEffect' is declared but its value is never read.
+src/components/Lobby.tsx(1,17): error TS6133: 'useEffect' is declared but its value is never read.
+src/components/Lobby.tsx(2,37): error TS6196: 'Player' is declared but never used.
+src/components/ThreeD/Explosion.tsx(1,25): error TS6133: 'useLayoutEffect' is declared but its value is never read.
+src/components/ThreeD/Explosion.tsx(1,52): error TS6133: 'useEffect' is declared but its value is never read.
+src/components/ThreeD/Explosion.tsx(3,1): error TS6192: All imports in import declaration are unused.
+src/components/ThreeD/Explosion.tsx(34,15): error TS6133: 'state' is declared but its value is never read.
+src/components/ThreeD/GameBoard3D.tsx(8,16): error TS6133: 'Html' is declared but its value is never read.
+src/components/ThreeD/Tile3D.tsx(2,15): error TS6133: 'Cylinder' is declared but its value is never read.
+src/components/ThreeD/Tile3D.tsx(2,25): error TS6133: 'Sphere' is declared but its value is never read.
+src/components/ThreeD/Tile3D.tsx(4,1): error TS6133: 'THREE' is declared but its value is never read.
+src/components/ThreeD/Tile3D.tsx(148,43): error TS2339: Property 'opacity' does not exist on type '{ color: string; height: number; transparent: boolean; opacity: number; } | { color: string; height: number; } | { color: string; height: number; } | { color: string; height: number; }'.
+  Property 'opacity' does not exist on type '{ color: string; height: number; }'.
+src/components/ThreeD/Tile3D.tsx(163,39): error TS2339: Property 'transparent' does not exist on type '{ color: string; height: number; transparent: boolean; opacity: number; } | { color: string; height: number; } | { color: string; height: number; } | { color: string; height: number; }'.
+  Property 'transparent' does not exist on type '{ color: string; height: number; }'.
+src/components/ThreeD/UnitModels.tsx(1,17): error TS6133: 'useMemo' is declared but its value is never read.
+src/components/ThreeD/UnitModels.tsx(323,54): error TS6133: 'color' is declared but its value is never read.
