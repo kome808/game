@@ -238,6 +238,7 @@ function GameApp() {
       })
       .subscribe();
 
+    return () => { supabase.removeChannel(channel); };
   }, [gameState.gameMode, gameState.roomCode]);
 
   // BGM Update
